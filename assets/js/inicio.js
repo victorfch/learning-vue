@@ -11,3 +11,11 @@ var app2 = new Vue({
     message: 'Cargada esta página el ' + new Date().toLocaleString()
   }
 });
+
+var app3 = new Vue({
+  el: '#app3',
+  data: {
+    seen: true
+  }
+});
+
