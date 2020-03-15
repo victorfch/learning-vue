@@ -23,9 +23,9 @@ var app4 = new Vue({
   el: '#app4',
   data: {
     alumnos: [
-      { text: "Primer elemento" },
-      { text: "Segundo elemento" },
-      { text: "Tercer elemento" },
+      { text: "Frank" },
+      { text: "Marta" },
+      { text: "Guille" },
     ]
   }
 });
