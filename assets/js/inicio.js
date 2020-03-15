@@ -19,3 +19,14 @@ var app3 = new Vue({
   }
 });
 
+var app4 = new Vue({
+  el: '#app4',
+  data: {
+    alumnos: [
+      { text: "Primer elemento" },
+      { text: "Segundo elemento" },
+      { text: "Tercer elemento" },
+    ]
+  }
+});
+
