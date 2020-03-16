@@ -43,3 +43,29 @@ var app5 = new Vue({
   }
 })
 
+var app6 = new Vue({
+  el: '#app6',
+  data: {
+    title: 'Hola Usuario!',
+    message: 'Nombre'
+  }
+})
+
+//Templates
+//hijo
+Vue.component('todo-item', {
+  props: ['todo'], //propiedad pasada del padre al hijo
+  template: '<li>{{ todo.texto }}</li>'
+})
+//padre
+var app7 = new Vue({
+  el: '#app7',
+  data: {
+    listaCompra: [
+      { id: 0, texto: 'Vegetales' },
+      { id: 1, texto: 'Queso' },
+      { id: 2, texto: 'Cualquier otra cosa que se supone que los humanos coman' }
+    ]
+  }
+})
+
