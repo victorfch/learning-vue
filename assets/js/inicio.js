@@ -30,3 +30,16 @@ var app4 = new Vue({
   }
 });
 
+var app5 = new Vue({
+  el: '#app5',
+  data: {
+    message: 'Hola Vue.js!',
+    isShow: true
+  },
+  methods: {
+    hideOrShow: function () {
+      this.isShow = !this.isShow
+    }
+  }
+})
+
