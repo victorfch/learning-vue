@@ -8,7 +8,7 @@
 export default {
     name: 'OtroHijoDelSiete',
     props: {
-        compra: [],
+        compra: {},
     },
 }
 </script>
