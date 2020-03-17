@@ -2,6 +2,7 @@
   <div class="padre">
       <h2>Componente padre</h2>
       <p>Pasando datos de padre a hijo</p>
+      <input type="text" name="nombre" v-model="nombre">
       <hijo-del-siete :persona="nombre"/>
       <ol>
           <otro-hijo-del-siete v-for="item in listaCompra"
@@ -19,7 +20,7 @@ export default {
     name: 'SeptimaParte',
     data() {
         return {
-            nombre: 'Matt',
+            nombre: '',
             listaCompra: [
                 { id: 0, texto: 'Vegetales' },
                 { id: 1, texto: 'Queso' },
