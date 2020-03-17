@@ -4,9 +4,9 @@
     <hr>
     <segunda-parte/>
     <hr>
-    <tercera-parte/>
+    <usando-if/>
     <hr>
-    <cuarta-parte/>
+    <usando-for/>
     <hr>
     <quinta-parte/>
     <hr>
@@ -22,8 +22,8 @@
 <script>
 import Inicial from '@/components/Inicial.vue';
 import SegundaParte from '@/components/SegundaParte.vue';
-import TerceraParte from '@/components/TerceraParte.vue';
-import CuartaParte from '@/components/CuartaParte.vue';
+import UsandoIf from '@/components/UsandoIf.vue';
+import UsandoFor from '@/components/UsandoFor.vue';
 import QuintaParte from '@/components/QuintaParte.vue';
 import SextaParte from '@/components/SextaParte.vue';
 import SeptimaParte from '@/components/SeptimaParte.vue';
@@ -34,8 +34,8 @@ export default {
   components: {
     Inicial,
     SegundaParte,
-    TerceraParte,
-    CuartaParte,
+    UsandoIf,
+    UsandoFor,
     QuintaParte,
     SextaParte,
     SeptimaParte,

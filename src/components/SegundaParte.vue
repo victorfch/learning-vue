@@ -1,6 +1,6 @@
 <template>
   <div id="app2">
-    <span v-bind:title="mensaje">Titulo grande, mantener mouse en esta zona</span>
+    <span :title="mensaje">Titulo grande, mantener mouse en esta zona</span>
   </div>
 </template>
 

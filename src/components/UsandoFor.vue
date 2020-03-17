@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "CuartaParte",
+  name: "UsandoFor",
   data() {
     return {
       alumnos: [

@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name: "TerceraParte",
+    name: "UsandoIf",
     data() {
         return {
             isBlue: false
