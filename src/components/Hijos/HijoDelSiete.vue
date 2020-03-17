@@ -21,8 +21,6 @@ p {
 }
 div {
     background-color: aqua;
-    height: 100%;
-    width: 100%;
-
+    padding-bottom: 1em;
 }
 </style>

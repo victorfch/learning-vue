@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 #hijo {
-    padding: 1em;
-    background-color: coral
+    background-color: coral;
+    padding-bottom: 1em;
 }
 </style>

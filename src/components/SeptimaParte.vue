@@ -4,11 +4,11 @@
       <p>Pasando datos de padre a hijo</p>
       <input type="text" name="nombre" v-model="nombre">
       <hijo-del-siete :persona="nombre"/>
-      <ol>
+      <dd>
           <otro-hijo-del-siete v-for="item in listaCompra"
                 :compra="item"
                 :key="item.id"/>
-      </ol>
+      </dd>
   </div>
 </template>
 

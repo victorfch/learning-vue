@@ -1,36 +1,42 @@
 <template>
-  <div id="app">
-    <inicial/>
+  <b-container fluid id="app">
+    <b-row class="text-center">
+      <b-col><inicial /></b-col>
+      <b-col><segunda-parte/></b-col>
+    </b-row>
     <hr>
-    <segunda-parte/>
+    <b-row class="text-center">
+      <b-col><usando-if/></b-col>
+      <b-col><usando-for/></b-col>
+    </b-row>
     <hr>
-    <usando-if/>
+    <b-row class="text-center">
+      <b-col><quinta-parte/></b-col>
+      <b-col><sexta-parte/></b-col>
+    </b-row>
     <hr>
-    <usando-for/>
+    <b-row class="text-center">
+      <b-col><septima-parte/></b-col>
+      <b-col><octava-parte/> </b-col>
+    </b-row>
     <hr>
-    <quinta-parte/>
-    <hr>
-    <sexta-parte/>
-    <hr>
-    <septima-parte/>
-    <hr>
-    <octava-parte/>
-
-  </div>
+    <usando-filtros/>
+  </b-container>
 </template>
 
 <script>
-import Inicial from '@/components/Inicial.vue';
-import SegundaParte from '@/components/SegundaParte.vue';
-import UsandoIf from '@/components/UsandoIf.vue';
-import UsandoFor from '@/components/UsandoFor.vue';
-import QuintaParte from '@/components/QuintaParte.vue';
-import SextaParte from '@/components/SextaParte.vue';
-import SeptimaParte from '@/components/SeptimaParte.vue';
-import OctavaParte from '@/components/OctavaParte.vue';
+import Inicial from "@/components/Inicial.vue";
+import SegundaParte from "@/components/SegundaParte.vue";
+import UsandoIf from "@/components/UsandoIf.vue";
+import UsandoFor from "@/components/UsandoFor.vue";
+import QuintaParte from "@/components/QuintaParte.vue";
+import SextaParte from "@/components/SextaParte.vue";
+import SeptimaParte from "@/components/SeptimaParte.vue";
+import OctavaParte from "@/components/OctavaParte.vue";
+import UsandoFiltros from "@/components/UsandoFiltros.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Inicial,
     SegundaParte,
@@ -39,9 +45,10 @@ export default {
     QuintaParte,
     SextaParte,
     SeptimaParte,
-    OctavaParte
+    OctavaParte,
+    UsandoFiltros
   }
-}
+};
 </script>
 
 <style>

@@ -12,3 +12,8 @@ export default {
     },
 }
 </script>
+<style scoped>
+div {
+    background-color: burlywood
+}
+</style>

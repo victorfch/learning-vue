@@ -30,6 +30,5 @@ export default {
 <style scoped>
 .padre {
     border-style: groove;
-    padding-left: 1em;
 }
 </style>
