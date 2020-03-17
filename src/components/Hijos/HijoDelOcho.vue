@@ -1,7 +1,7 @@
 <template>
     <div id=hijo>
         <h3>Hijo</h3>
-        <input type="text" v-model="mensajeHijo" @keyup="update">
+        <input type="text" v-model="mensajeHijo" @keyup.enter="update">
     </div>
 </template>
 
