@@ -1,7 +1,6 @@
 <template>
     <div>
         <li>{{compra.texto}}</li>
-
     </div>
 </template>
 
@@ -13,7 +12,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-
-</style>

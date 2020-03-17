@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div class="padre">
+      <h2>Componente padre</h2>
+      <p>Pasando datos de padre a hijo</p>
       <hijo-del-siete :persona="nombre"/>
       <ol>
           <otro-hijo-del-siete v-for="item in listaCompra"
@@ -31,3 +33,9 @@ export default {
     },
 }
 </script>
+<style scoped>
+.padre {
+    border-style: solid;
+}
+
+</style>

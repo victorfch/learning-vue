@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Pasando datos del padre al hijo</h2>
+        <h3>Componente hijo</h3>
         <p>{{persona}}</p>
     </div>
 </template>
@@ -19,5 +19,10 @@ export default {
 p {
     color: green;
 }
+div {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
 
+}
 </style>

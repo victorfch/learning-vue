@@ -13,6 +13,9 @@
     <sexta-parte/>
     <hr>
     <septima-parte/>
+    <hr>
+    <octava-parte/>
+
   </div>
 </template>
 
@@ -24,6 +27,7 @@ import CuartaParte from '@/components/CuartaParte.vue';
 import QuintaParte from '@/components/QuintaParte.vue';
 import SextaParte from '@/components/SextaParte.vue';
 import SeptimaParte from '@/components/SeptimaParte.vue';
+import OctavaParte from '@/components/OctavaParte.vue';
 
 export default {
   name: 'App',
@@ -34,7 +38,8 @@ export default {
     CuartaParte,
     QuintaParte,
     SextaParte,
-    SeptimaParte
+    SeptimaParte,
+    OctavaParte
   }
 }
 </script>
