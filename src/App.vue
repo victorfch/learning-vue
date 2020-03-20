@@ -20,7 +20,10 @@
       <b-col><octava-parte/> </b-col>
     </b-row>
     <hr>
-    <usando-filtros/>
+    <b-row class="text-center">
+      <b-col><usando-filtros/></b-col>
+      <b-col><usando-bus/></b-col>
+    </b-row>
   </b-container>
 </template>
 
@@ -34,6 +37,7 @@ import SextaParte from "@/components/SextaParte.vue";
 import SeptimaParte from "@/components/SeptimaParte.vue";
 import OctavaParte from "@/components/OctavaParte.vue";
 import UsandoFiltros from "@/components/UsandoFiltros.vue";
+import UsandoBus from '@/components/UsandoBus.vue';
 
 export default {
   name: "App",
@@ -46,7 +50,8 @@ export default {
     SextaParte,
     SeptimaParte,
     OctavaParte,
-    UsandoFiltros
+    UsandoFiltros,
+    UsandoBus
   }
 };
 </script>
