@@ -2,8 +2,6 @@
     <div>
         <input type="text" placeholder="Introduce mensaje" v-model="msg">
         <p>{{msg}}</p>
-
-
     </div>
 </template>
 

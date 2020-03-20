@@ -24,5 +24,4 @@ export default {
 .padre {
     border-style: solid;
 }
-
 </style>

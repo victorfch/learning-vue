@@ -2,7 +2,7 @@
   <div class="padre">
       <h2>Componente padre</h2>
       <p>Pasando datos de padre a hijo</p>
-      <input type="text" name="nombre" v-model="entradaInput" @keyup.enter="sendToChild(entradaInput)">
+      <input type="text" name="nombre" v-model="entradaInput" @keyup.enter="sendToChild">
       <button @click="sendToChild(entradaInput)">Enviar</button>
       <hijo-del-siete :persona="nombre"/>
       <dd>
@@ -31,8 +31,8 @@ export default {
         }
     },
     methods: {
-        sendToChild(value) {
-            this.nombre = value;
+        sendToChild() {
+            this.nombre = this.entradaInput;
         }
     },
     components: {
@@ -45,5 +45,4 @@ export default {
 .padre {
     border-style: solid;
 }
-
 </style>

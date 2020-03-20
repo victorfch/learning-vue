@@ -6,11 +6,10 @@
 </template>
 
 <script>
-
 export default {
     name: 'HijoDelSiete',
     props: {
-        persona: String,
+        persona: String
     },
 }
 </script>

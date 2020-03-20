@@ -29,5 +29,4 @@ export default {
     background-color:cadetblue;
     padding-bottom: 2em;
 }
-
 </style>

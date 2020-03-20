@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>Uso de filtro capitalize</h2>
         <input type="text" v-model="texto"/><br>
         <span>{{texto | capitalize}}</span>
 
