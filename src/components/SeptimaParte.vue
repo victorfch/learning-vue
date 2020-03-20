@@ -2,7 +2,8 @@
   <div class="padre">
       <h2>Componente padre</h2>
       <p>Pasando datos de padre a hijo</p>
-      <input type="text" name="nombre" v-model="nombre">
+      <input type="text" name="nombre" v-model="entradaInput" @keyup.enter="sendToChild(entradaInput)">
+      <button @click="sendToChild(entradaInput)">Enviar</button>
       <hijo-del-siete :persona="nombre"/>
       <dd>
           <otro-hijo-del-siete v-for="item in listaCompra"
@@ -20,12 +21,18 @@ export default {
     name: 'SeptimaParte',
     data() {
         return {
+            entradaInput: '',
             nombre: '',
             listaCompra: [
                 { id: 0, texto: 'Vegetales' },
                 { id: 1, texto: 'Queso' },
                 { id: 2, texto: 'Cualquier otra cosa que se supone que los humanos coman' }
             ]
+        }
+    },
+    methods: {
+        sendToChild(value) {
+            this.nombre = value;
         }
     },
     components: {
