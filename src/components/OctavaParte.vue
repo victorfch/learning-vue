@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import HijoDelOcho from '@/components/Hijos/HijoDelOcho.vue';
+import HijoDelOcho from '@/components/Hijos/HijoDelOcho.vue'
 export default {
     name: 'OctavaParte',
     components: {
@@ -21,7 +21,7 @@ export default {
     },
     methods: {
         actualizarCambios(valorEnHijo) {
-            this.texto = valorEnHijo;
+            this.texto = valorEnHijo
         }
     },
 }

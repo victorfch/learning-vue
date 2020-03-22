@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import HijoUnoBus from '@/components/Hijos/HijoUnoBus.vue';
-import HijoDosBus from '@/components/Hijos/HijoDosBus.vue';
+import HijoUnoBus from '@/components/Hijos/HijoUnoBus.vue'
+import HijoDosBus from '@/components/Hijos/HijoDosBus.vue'
 
 export default {
     name: 'UsandoBus',

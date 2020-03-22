@@ -13,10 +13,10 @@
 export default {
     name: "UsandoIf",
     data() {
-        return {
-            isBlue: false
-        };
-    }
+      return {
+        isBlue: false
+      }
+    },
 };
 </script>
 

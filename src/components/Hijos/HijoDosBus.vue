@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import bus from '@/busdata.js';
+import bus from '@/busdata.js'
 export default {
     name: 'HijoDosBus',
     data() {

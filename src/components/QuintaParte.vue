@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     hideOrShow() {
-      this.seen = !this.seen;
+      this.seen = !this.seen
     }
   }
 };

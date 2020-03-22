@@ -3,7 +3,6 @@
         <h2>Uso de filtro capitalize</h2>
         <input type="text" v-model="texto"/><br>
         <span>{{texto | capitalize}}</span>
-
     </div>
 </template>
 
@@ -18,7 +17,7 @@ export default {
     filters: {
         capitalize: function(value) {
             if (!value) {
-                return '';
+                return ''
             }
             value = value.toString()
             return value.charAt(0).toUpperCase() + value.slice(1)

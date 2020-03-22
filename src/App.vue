@@ -1,7 +1,7 @@
 <template>
   <b-container fluid id="app">
     <b-nav>
-      <b-nav-item to="/inicial">Inicial</b-nav-item>
+      <b-nav-item to="/">Inicial</b-nav-item>
       <b-nav-item to="/segunda">Segunda parte</b-nav-item>
       <b-nav-item to="/if">Usando if</b-nav-item>
       <b-nav-item to="/for">Usando for</b-nav-item>

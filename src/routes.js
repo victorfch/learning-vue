@@ -17,7 +17,7 @@ export default new Router({
     mode: 'history',
     routes: [
         {
-            path: '/inicial',
+            path: '/',
             name: 'inicial',
             component: Inicial
             

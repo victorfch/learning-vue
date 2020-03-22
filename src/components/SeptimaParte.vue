@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import HijoDelSiete from '@/components/Hijos/HijoDelSiete.vue';
-import OtroHijoDelSiete from '@/components/Hijos/OtroHijoDelSiete.vue';
+import HijoDelSiete from '@/components/Hijos/HijoDelSiete.vue'
+import OtroHijoDelSiete from '@/components/Hijos/OtroHijoDelSiete.vue'
 
 export default {
     name: 'SeptimaParte',
@@ -32,7 +32,7 @@ export default {
     },
     methods: {
         sendToChild() {
-            this.nombre = this.entradaInput;
+            this.nombre = this.entradaInput
         }
     },
     components: {
