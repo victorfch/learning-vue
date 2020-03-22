@@ -1,58 +1,26 @@
 <template>
   <b-container fluid id="app">
-    <b-row class="text-center">
-      <b-col><inicial /></b-col>
-      <b-col><segunda-parte/></b-col>
-    </b-row>
+    <b-nav>
+      <b-nav-item to="/inicial">Inicial</b-nav-item>
+      <b-nav-item to="/segunda">Segunda parte</b-nav-item>
+      <b-nav-item to="/if">Usando if</b-nav-item>
+      <b-nav-item to="/for">Usando for</b-nav-item>
+      <b-nav-item to="/quinta">Usando botones</b-nav-item>
+      <b-nav-item to="/sexta">Sexta parte</b-nav-item>
+      <b-nav-item to="/septima">Envio padre a hijo</b-nav-item>
+      <b-nav-item to="/octava">Envio hijo a padre</b-nav-item>
+      <b-nav-item to="/filtros">Filtros</b-nav-item>
+      <b-nav-item to="/bus">Bus</b-nav-item>
+    </b-nav>
     <hr>
-    <b-row class="text-center">
-      <b-col><usando-if/></b-col>
-      <b-col><usando-for/></b-col>
-    </b-row>
-    <hr>
-    <b-row class="text-center">
-      <b-col><quinta-parte/></b-col>
-      <b-col><sexta-parte/></b-col>
-    </b-row>
-    <hr>
-    <b-row class="text-center">
-      <b-col><septima-parte/></b-col>
-      <b-col><octava-parte/> </b-col>
-    </b-row>
-    <hr>
-    <b-row class="text-center">
-      <b-col><usando-filtros/></b-col>
-      <b-col><usando-bus/></b-col>
-    </b-row>
+    <router-view/>
   </b-container>
 </template>
 
 <script>
-import Inicial from "@/components/Inicial.vue";
-import SegundaParte from "@/components/SegundaParte.vue";
-import UsandoIf from "@/components/UsandoIf.vue";
-import UsandoFor from "@/components/UsandoFor.vue";
-import QuintaParte from "@/components/QuintaParte.vue";
-import SextaParte from "@/components/SextaParte.vue";
-import SeptimaParte from "@/components/SeptimaParte.vue";
-import OctavaParte from "@/components/OctavaParte.vue";
-import UsandoFiltros from "@/components/UsandoFiltros.vue";
-import UsandoBus from '@/components/UsandoBus.vue';
 
 export default {
   name: "App",
-  components: {
-    Inicial,
-    SegundaParte,
-    UsandoIf,
-    UsandoFor,
-    QuintaParte,
-    SextaParte,
-    SeptimaParte,
-    OctavaParte,
-    UsandoFiltros,
-    UsandoBus
-  }
 };
 </script>
 
